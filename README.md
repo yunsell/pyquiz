@@ -3,9 +3,13 @@
 
 ---
 
+## pyquiz 1.4 ver
+- 네비게이션바 추가(include 기능 사용)
+```
 ## pyquiz 1.3 ver
 - 게시글 작성 기능 완료
 - 게시글, 답변 없을시 오류 표시
+```
 ```
 ## pyquiz 1.2 ver
 - base.html 적용
