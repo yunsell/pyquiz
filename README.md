@@ -3,11 +3,15 @@
 
 ---
 
+## pyquiz 1.6 ver
+- login, logout 기능 구현
+
+```
 ## pyquiz 1.5 ver
 - 페이징 기능 적용
 - 게시글 일련번호 표기
 - 답변 개수 표시
-
+```
 ```
 ## pyquiz 1.4 ver
 - 네비게이션바 추가(include 기능 사용)
