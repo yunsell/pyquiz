@@ -46,3 +46,10 @@ def detail(request, question_id):
     question = get_object_or_404(Question, pk=question_id)
     context = {'question': question}
     return render(request, 'pyquiz/question_detail.html', context)
+
+def quiz(request):
+    """
+    pyquiz 퀴즈 출력
+    """
+    context = {'quiz': quiz}
+    return render(request, 'pyquiz/quiz.html', context)

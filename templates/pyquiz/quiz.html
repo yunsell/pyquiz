@@ -1,13 +1,7 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Quiz App</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-	<div class="home-box custom-box hide">
+{% extends "base.html" %}
+{% block content %}
+<link rel="stylesheet" href="/static/quiz_style.css">
+	<div class="home-box custom-box">
 		<h3>Instruction:</h3>
 		<p>Total number of questions:<span class="total-question">5</span></p>
 		<button type="button" class="btn">Start Quiz</button>
@@ -38,7 +32,7 @@
 		</div>
 	</div>
 
-		<div class="result-box custom-box hide">
+		<div class="result-box custom-box">
 			<h1>Quiz Result</h1>
 			<table>
 				<tr>
@@ -70,10 +64,5 @@
 			<button type="button" class="btn">Go To Home</button>
 		</div>
 
-
-<script src="js/question.js"></script>
-<script src="js/app.js"></script>
-</body>
-</html>
-
+{% endblock %}
 

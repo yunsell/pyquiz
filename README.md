@@ -1,12 +1,17 @@
-# pyquiz
+# Pyquiz
 
 파이썬 기초 문제풀이 & 커뮤니티 사이트입니다.
-
+> <h3>개발환경</h3>
+>- Python 3.8
+>- Django 3.1.4
 ---
-
+## pyquiz 2.5 ver
+- pyquiz 템플릿 및 경로 추가
+```
 ## pyquiz 2.4 ver
 - 검색기능 추가(내용, 제목, 작성자, 답변자)
 - 정렬기능 추가(최신순, 추천순, 인기순)
+```
 ```
 ## pyquiz 2.3 ver
 - 마크다운 기능 적용 (pip install markdown)
